@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles.xml
+ *
+ * Copyright (C) 2013 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="folder/create" extends="master.page">	
+		<put-attribute name="title" value="Create folder" />
+		<put-attribute name="body" value="/views/folder/create.jsp" />
+	</definition>
+	<definition name="folder/list" extends="master.page">	
+		<put-attribute name="title" value="Message List" />
+		<put-attribute name="body" value="/views/folder/list.jsp" />
+	</definition>
+	<definition name="folder/message" extends="master.page">	
+		<put-attribute name="title" value="Mensagge" />
+		<put-attribute name="body" value="/views/folder/message.jsp" />
+	</definition>
+	<definition name="folder/messages" extends="master.page">	
+		<put-attribute name="title" value="Mensagges" />
+		<put-attribute name="body" value="/views/folder/messages.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>
